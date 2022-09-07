@@ -55,7 +55,6 @@ html{
 .menu-item1 li{
     list-style-type: none;
     font-size: .8em;
-    /* padding: 10px 0 0 10px; */
 }
 
 .menu-item2>img{
@@ -74,10 +73,7 @@ html{
     height: 430px;
     margin-top: 20px;
     position: relative;
-    margin-bottom: 50px;
-
-    /* debug */
-    background-color: black;   
+    margin-bottom: 50px; 
 }
 
 .card:hover .image1{
