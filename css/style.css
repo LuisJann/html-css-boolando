@@ -30,14 +30,12 @@
 
 .container-card{
     width: 100%;
-    padding-left: 100px;
-    padding-right: 100px;
-    max-width: 1300px;
+    margin: 0 auto;
+    max-width: 1000px;
     align-items: center;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    position: relative;
 }
 /* HEADER */
 .menu-item1{
@@ -66,12 +64,21 @@
 }
 
 /* FOOTER */
-.footer-box{
+.end{
+    display: flex;
+    justify-content: space-between;
     background-color: #1a1a1a;
     height: 80px;
     width: 100%;
     margin-top: 100px;
 }
+
+/* .footer-box{
+    background-color: #1a1a1a;
+    height: 80px;
+    width: 100%;
+    margin-top: 100px;
+} */
 
 .name{
     padding-top: 20px;
@@ -82,4 +89,10 @@
     margin-top: 15px;
     padding-left: 100px;
     font-size: .8em;
+}
+
+.social{
+    height: 50px;
+    padding-top: 20px;
+    padding-right: 100px;
 }
