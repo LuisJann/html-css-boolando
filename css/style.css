@@ -90,6 +90,7 @@ html{
 .discount{
     position: absolute;
     top: 400px;
+    left: 4px;
     background-color: red;
     padding: 3px 6px 3px 6px;
     font-size: .8em;
