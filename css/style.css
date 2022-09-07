@@ -72,6 +72,11 @@ html{
     background-color: black;   
 }
 
+.card:hover .image1{
+    /* transform: scale(1.1); */
+    display: none;
+}
+
 .image1{
     width: 100%;
     position: absolute;
